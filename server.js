@@ -66,14 +66,14 @@ app.post('/:groups/newMessage', function (req, res, next) {
             group.posts.push(post);
             fs.writeFile('groupPosts.json', JSON.stringify(groupPosts), function (err) {
                 if (err) {
-                    res.status(500).send("Unable to save post to \"database\".");
+                    res.status(500).send("Unable to save photo to \"database\".");
                 } else {
                     res.status(200).send();
                 }
             });
 
         } else {
-            res.status(400).send("Person must have a name.");
+            res.status(400).send("Person photo must have a URL.");
         }
 
     } else {

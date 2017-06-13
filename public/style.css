@@ -156,6 +156,7 @@ h5 {
 }
 
 .image-source {
+    border-radius: 50%;
     width: 50px;
     height: 50px;
     top: 50%;
@@ -200,11 +201,12 @@ h5 {
 }
 
 .group-post {
-  /*width: 100px;
+  text-align: center;
+  width: 100px;
   height: 100px;
   padding: 0px;
   border: 0px;
-  padding-top: 8px;*/
+  padding-top: 8px;
 }
 
 #group-post {
@@ -229,9 +231,9 @@ h5 {
 }
 
 .group-image:hover {
-    width: 55px;
-    height: 55px;
-    margin-bottom: -1px;
+    width: 56px;
+    height: 56px;
+    margin-top: -3px;
 }
 
 a .group-name {
